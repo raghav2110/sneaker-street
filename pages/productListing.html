@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://splash-ui.vercel.app/CSS/main.css">
+    <link rel="stylesheet" href="/css/productListing.css">
+    <title>Sneaker Street</title>
+</head>
+<body>
+    <header class="header-main">
+        <nav class="nav nav-dark" style="position: relative;">
+            <h3>SNEAKER STREET</h3>
+            <button class="hamburger">
+                <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+            </button>
+            <div class="search-container">
+                <input type="text" placeholder="🔍  Search.." name="search">
+            </div>
+            <ul class="nav-list">
+                <li><button class="btn btn-secondary">Login</button></li>
+                <li><button class="btn btn-icon">
+                    <i class="fa fa-heart fa-lg" aria-hidden="true"></i>
+                </button></li>
+                <li><button class="btn btn-icon">
+                    <i class="fa fa-shopping-cart fa-lg" aria-hidden="true"></i>
+                </button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="content-wrapper">
+        <div class="filter-wrapper">
+            <header class="filter-header">
+                <h3>Filters</h3>
+                <button class="btn-filter">Clear</button>
+            </header>
+            <section class="filter-section">
+                <h4>Price</h4>
+                <input type="range" min="500" max="5500" step="1000" list="pricTick">
+                <datalist id="pricTick">
+                    <option label="500" value="500"></option>
+                    <option label="500" value="1500"></option>
+                    <option label="500" value="2500"></option>
+                    <option label="500" value="3500"></option>
+                    <option label="500" value="4500"></option>
+                </datalist>
+            </section>
+            <section class="filter-section">
+                <h4>Gender</h4>
+                <ul class="filter-list">
+                    <li>
+                        <label class="filter-label">
+                            <input type="radio" name="gender-category" value="allgender" class="filter-input">
+                            All Genders
+                        </label>
+                    </li>
+                    <li>
+                        <label class="filter-label">
+                            <input type="radio" name="gender-category" value="women" class="filter-input">
+                            Women
+                        </label>
+                    </li>
+                    <li>
+                        <label class="filter-label">
+                            <input type="radio" name="gender-category" value="men" class="filter-input">
+                            Men
+                        </label>
+                    </li>
+                </ul>
+            </section>
+            <section class="filter-section">
+                <h4>Product Rating</h4>
+                <ul class="filter-list">
+                    <li>
+                        <label class="filter-label">
+                            <input type="radio" name="product-rating" value="4" class="filter-input">
+                            4 ⭐️ & Above
+                        </label>
+                    </li>
+                    <li>
+                        <label class="filter-label">
+                            <input type="radio" name="product-rating" value="3" class="filter-input">
+                            3 ⭐️ & Above
+                        </label>
+                    </li>
+                    <li>
+                        <label class="filter-label">
+                            <input type="radio" name="product-rating" value="2" class="filter-input">
+                            2 ⭐️ & Above
+                        </label>
+                    </li>
+                    <li>
+                        <label class="filter-label">
+                            <input type="radio" name="product-rating" value="1" class="filter-input">
+                            1 ⭐️ & Above
+                        </label>
+                    </li>
+                </ul>
+            </section>
+            <section class="filter-section">
+                <h4>Availability</h4>
+                <ul class="filter-list">
+                    <li>
+                        <label class="filter-label">
+                            <input type="checkbox" name="availability" value="available" class="filter-input">
+                            In Stock
+                        </label>
+                    </li>
+                </ul>
+            </section>
+
+
+        </div>
+        <div class="product-wrapper">
+            <a href="#">
+                <div class="card-comp">
+                    <img class="img-comp" src="/assets/new-arrival-1.jpeg" alt="Shoe Image">
+                    <span class="card-badge">NEW</span>
+                    <div class="text-comp">
+                        <div class="header-comp">
+                            <div class="header">Nike</div>
+                            <div class="sub-header">₹ 12,999</div>
+                        </div>
+                        <div class="detail-comp">NMD_R1 ‘ CORE BLACK ‘</div>
+                    </div>
+                    <div class="footer-card">
+                        <div class="name-comp-card">
+                            <button class="btn-addToCart">Add To Cart</button>
+                        </div>
+                        <div class="icons-comp">
+                            <i class="fa fa-heart icon"></i>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="#">
+                <div class="card-comp">
+                    <img class="img-comp" src="/assets/new-arrival-1.jpeg" alt="Shoe Image">
+                    <span class="card-badge">NEW</span>
+                    <div class="text-comp">
+                        <div class="header-comp">
+                            <div class="header">Nike</div>
+                            <div class="sub-header">₹ 12,999</div>
+                        </div>
+                        <div class="detail-comp">NMD_R1 ‘ CORE BLACK ‘</div>
+                    </div>
+                    <div class="footer-card">
+                        <div class="name-comp-card">
+                            <button class="btn-addToCart">Add To Cart</button>
+                        </div>
+                        <div class="icons-comp">
+                            <i class="fa fa-heart icon"></i>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="#">
+                <div class="card-comp">
+                    <img class="img-comp" src="/assets/new-arrival-1.jpeg" alt="Shoe Image">
+                    <span class="card-badge">NEW</span>
+                    <div class="text-comp">
+                        <div class="header-comp">
+                            <div class="header">Nike</div>
+                            <div class="sub-header">₹ 12,999</div>
+                        </div>
+                        <div class="detail-comp">NMD_R1 ‘ CORE BLACK ‘</div>
+                    </div>
+                    <div class="footer-card">
+                        <div class="name-comp-card">
+                            <button class="btn-addToCart">Add To Cart</button>
+                        </div>
+                        <div class="icons-comp">
+                            <i class="fa fa-heart icon"></i>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="#">
+                <div class="card-comp">
+                    <img class="img-comp" src="/assets/new-arrival-1.jpeg" alt="Shoe Image">
+                    <span class="card-badge">NEW</span>
+                    <div class="text-comp">
+                        <div class="header-comp">
+                            <div class="header">Nike</div>
+                            <div class="sub-header">₹ 12,999</div>
+                        </div>
+                        <div class="detail-comp">NMD_R1 ‘ CORE BLACK ‘</div>
+                    </div>
+                    <div class="footer-card">
+                        <div class="name-comp-card">
+                            <button class="btn-addToCart">Add To Cart</button>
+                        </div>
+                        <div class="icons-comp">
+                            <i class="fa fa-heart icon"></i>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="#">
+                <div class="card-comp">
+                    <img class="img-comp" src="/assets/new-arrival-1.jpeg" alt="Shoe Image">
+                    <span class="card-badge">NEW</span>
+                    <div class="text-comp">
+                        <div class="header-comp">
+                            <div class="header">Nike</div>
+                            <div class="sub-header">₹ 12,999</div>
+                        </div>
+                        <div class="detail-comp">NMD_R1 ‘ CORE BLACK ‘</div>
+                    </div>
+                    <div class="footer-card">
+                        <div class="name-comp-card">
+                            <button class="btn-addToCart">Add To Cart</button>
+                        </div>
+                        <div class="icons-comp">
+                            <i class="fa fa-heart icon"></i>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="#">
+                <div class="card-comp">
+                    <img class="img-comp" src="/assets/new-arrival-1.jpeg" alt="Shoe Image">
+                    <span class="card-badge">NEW</span>
+                    <div class="text-comp">
+                        <div class="header-comp">
+                            <div class="header">Nike</div>
+                            <div class="sub-header">₹ 12,999</div>
+                        </div>
+                        <div class="detail-comp">NMD_R1 ‘ CORE BLACK ‘</div>
+                    </div>
+                    <div class="footer-card">
+                        <div class="name-comp-card">
+                            <button class="btn-addToCart">Add To Cart</button>
+                        </div>
+                        <div class="icons-comp">
+                            <i class="fa fa-heart icon"></i>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="#">
+                <div class="card-comp">
+                    <img class="img-comp" src="/assets/new-arrival-1.jpeg" alt="Shoe Image">
+                    <span class="card-badge">NEW</span>
+                    <div class="text-comp">
+                        <div class="header-comp">
+                            <div class="header">Nike</div>
+                            <div class="sub-header">₹ 12,999</div>
+                        </div>
+                        <div class="detail-comp">NMD_R1 ‘ CORE BLACK ‘</div>
+                    </div>
+                    <div class="footer-card">
+                        <div class="name-comp-card">
+                            <button class="btn-addToCart">Add To Cart</button>
+                        </div>
+                        <div class="icons-comp">
+                            <i class="fa fa-heart icon"></i>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="#">
+                <div class="card-comp">
+                    <img class="img-comp" src="/assets/new-arrival-1.jpeg" alt="Shoe Image">
+                    <span class="card-badge">NEW</span>
+                    <div class="text-comp">
+                        <div class="header-comp">
+                            <div class="header">Nike</div>
+                            <div class="sub-header">₹ 12,999</div>
+                        </div>
+                        <div class="detail-comp">NMD_R1 ‘ CORE BLACK ‘</div>
+                    </div>
+                    <div class="footer-card">
+                        <div class="name-comp-card">
+                            <button class="btn-addToCart">Add To Cart</button>
+                        </div>
+                        <div class="icons-comp">
+                            <i class="fa fa-heart icon"></i>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="#">
+                <div class="card-comp">
+                    <img class="img-comp over-img" src="/assets/new-arrival-1.jpeg" alt="Shoe Image">
+                    <div class="text-comp">
+                        <div class="header img-overlay">Out Of Stock</div>
+                        <div class="header-comp over-img">
+                            <div class="header">Nike</div>
+                            <div class="sub-header">₹ 12,999</div>
+                        </div>
+                        <div class="detail-comp over-img">NMD_R1 ‘ CORE BLACK ‘</div>
+                    </div>
+                    <div class="footer-card">
+                        <div class="name-comp-card">
+                            <button class="btn-addToCart">Add To Cart</button>
+                        </div>
+                        <div class="icons-comp">
+                            <i class="fa fa-heart icon"></i>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+
+    <footer class="landing-footer">
+        <nav class="nav nav-dark">
+            <h4 style="color: whitesmoke;">Made With 💙 By Raghav</h4>
+            <ul class="nav-list" style="display: flex;">
+                <li> <a href="https://github.com/raghav2110" target="_blank">
+                        <i class="fa fa-github fa-lg" aria-hidden="true"></i></a> </li>
+
+                <li> <a href="https://www.linkedin.com/in/raghav-heda-96a981167/" target="_blank">
+                        <i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+
+                <li>
+                    <a href="https://twitter.com/raghav_heda" target="_blank">
+                        <i class="fa fa-twitter-square" aria-hidden="true"></i></i></a>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
