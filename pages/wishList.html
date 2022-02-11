@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://splash-ui.vercel.app/CSS/main.css">
+    <link rel="stylesheet" href="/css/wishList.css">
+    <title>Sneaker Street</title>
+</head>
+<body>
+    <header class="header-main">
+        <nav class="nav nav-dark" style="position: relative;">
+            <a href="/index.html">
+                <h3>SNEAKER STREET</h3>
+            </a>
+            <button class="hamburger">
+                <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+            </button>
+            <div class="search-container">
+                <input type="text" placeholder="🔍  Search.." name="search">
+            </div>
+            <ul class="nav-list">
+                <li><button class="btn btn-secondary">Login</button></li>
+                <li>
+                    <a href="/pages/wishList.html">
+                        <button class="btn btn-icon">
+                            <i class="fa fa-heart fa-lg" aria-hidden="true"></i>
+                        </button>
+                    </a>
+                </i>
+                </button></li>
+                <li><button class="btn btn-icon">
+                    <i class="fa fa-shopping-cart fa-lg" aria-hidden="true"></i>
+                </button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="main-wrapper">
+        <h1>My Wishlist</h1>
+        <div class="wishlist-wrapper">
+            <div class="card-comp" id="dismiss-card-1">
+                <img class="img-comp" src="/assets/new-arrival-1.jpeg" alt="Food Image">
+                <span class="card-dismiss" onclick="showCodeForComp('dismiss-card-1')"><i class="fa fa-trash fa-lg"></i></span>
+                <div class="text-comp">
+                    <div class="header-comp">
+                        <div class="header">Nike</div>
+                        <div class="sub-header">₹ 12,999</div>
+                    </div>
+                    <div class="detail-comp">NMD_R1 ‘ CORE BLACK ‘</div>
+                </div>
+                <div class="footer-card">
+                    <div class="name-comp-card">
+                        <button class="btn-addToCart">Move To Cart</button>
+                    </div>
+                    <div class="icons-comp">
+                        <i class="fa fa-share-alt icon"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="card-comp" id="dismiss-card-2">
+                <img class="img-comp" src="/assets/new-arrival-1.jpeg" alt="Food Image">
+                <span class="card-dismiss" onclick="showCodeForComp('dismiss-card-2')"><i class="fa fa-trash fa-lg"></i></span>
+                <div class="text-comp">
+                    <div class="header-comp">
+                        <div class="header">Nike</div>
+                        <div class="sub-header">₹ 12,999</div>
+                    </div>
+                    <div class="detail-comp">NMD_R1 ‘ CORE BLACK ‘</div>
+                </div>
+                <div class="footer-card">
+                    <div class="name-comp-card">
+                        <button class="btn-addToCart">Move To Cart</button>
+                    </div>
+                    <div class="icons-comp">
+                        <i class="fa fa-share-alt icon"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="card-comp" id="dismiss-card-3">
+                <img class="img-comp" src="/assets/new-arrival-1.jpeg" alt="Food Image">
+                <span class="card-dismiss" onclick="showCodeForComp('dismiss-card-3')"><i class="fa fa-trash fa-lg"></i></span>
+                <div class="text-comp">
+                    <div class="header-comp">
+                        <div class="header">Nike</div>
+                        <div class="sub-header">₹ 12,999</div>
+                    </div>
+                    <div class="detail-comp">NMD_R1 ‘ CORE BLACK ‘</div>
+                </div>
+                <div class="footer-card">
+                    <div class="name-comp-card">
+                        <button class="btn-addToCart">Move To Cart</button>
+                    </div>
+                    <div class="icons-comp">
+                        <i class="fa fa-share-alt icon"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="card-comp" id="dismiss-card-4">
+                <img class="img-comp" src="/assets/new-arrival-1.jpeg" alt="Food Image">
+                <span class="card-dismiss" onclick="showCodeForComp('dismiss-card-4')"><i class="fa fa-trash fa-lg"></i></span>
+                <div class="text-comp">
+                    <div class="header-comp">
+                        <div class="header">Nike</div>
+                        <div class="sub-header">₹ 12,999</div>
+                    </div>
+                    <div class="detail-comp">NMD_R1 ‘ CORE BLACK ‘</div>
+                </div>
+                <div class="footer-card">
+                    <div class="name-comp-card">
+                        <button class="btn-addToCart">Move To Cart</button>
+                    </div>
+                    <div class="icons-comp">
+                        <i class="fa fa-share-alt icon"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="card-comp" id="dismiss-card-5">
+                <img class="img-comp" src="/assets/new-arrival-1.jpeg" alt="Food Image">
+                <span class="card-dismiss" onclick="showCodeForComp('dismiss-card-5')"><i class="fa fa-trash fa-lg"></i></span>
+                <div class="text-comp">
+                    <div class="header-comp">
+                        <div class="header">Nike</div>
+                        <div class="sub-header">₹ 12,999</div>
+                    </div>
+                    <div class="detail-comp">NMD_R1 ‘ CORE BLACK ‘</div>
+                </div>
+                <div class="footer-card">
+                    <div class="name-comp-card">
+                        <button class="btn-addToCart">Move To Cart</button>
+                    </div>
+                    <div class="icons-comp">
+                        <i class="fa fa-share-alt icon"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="card-comp" id="dismiss-card-6">
+                <img class="img-comp" src="/assets/new-arrival-1.jpeg" alt="Food Image">
+                <span class="card-dismiss" onclick="showCodeForComp('dismiss-card-6')"><i class="fa fa-trash fa-lg"></i></span>
+                <div class="text-comp">
+                    <div class="header-comp">
+                        <div class="header">Nike</div>
+                        <div class="sub-header">₹ 12,999</div>
+                    </div>
+                    <div class="detail-comp">NMD_R1 ‘ CORE BLACK ‘</div>
+                </div>
+                <div class="footer-card">
+                    <div class="name-comp-card">
+                        <button class="btn-addToCart">Move To Cart</button>
+                    </div>
+                    <div class="icons-comp">
+                        <i class="fa fa-share-alt icon"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="card-comp" id="dismiss-card-7">
+                <img class="img-comp" src="/assets/new-arrival-1.jpeg" alt="Food Image">
+                <span class="card-dismiss" onclick="showCodeForComp('dismiss-card-7')"><i class="fa fa-trash fa-lg"></i></span>
+                <div class="text-comp">
+                    <div class="header-comp">
+                        <div class="header">Nike</div>
+                        <div class="sub-header">₹ 12,999</div>
+                    </div>
+                    <div class="detail-comp">NMD_R1 ‘ CORE BLACK ‘</div>
+                </div>
+                <div class="footer-card">
+                    <div class="name-comp-card">
+                        <button class="btn-addToCart">Move To Cart</button>
+                    </div>
+                    <div class="icons-comp">
+                        <i class="fa fa-share-alt icon"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="card-comp" id="dismiss-card-8">
+                <img class="img-comp" src="/assets/new-arrival-1.jpeg" alt="Food Image">
+                <span class="card-dismiss" onclick="showCodeForComp('dismiss-card-8')"><i class="fa fa-trash fa-lg"></i></span>
+                <div class="text-comp">
+                    <div class="header-comp">
+                        <div class="header">Nike</div>
+                        <div class="sub-header">₹ 12,999</div>
+                    </div>
+                    <div class="detail-comp">NMD_R1 ‘ CORE BLACK ‘</div>
+                </div>
+                <div class="footer-card">
+                    <div class="name-comp-card">
+                        <button class="btn-addToCart">Move To Cart</button>
+                    </div>
+                    <div class="icons-comp">
+                        <i class="fa fa-share-alt icon"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/functionality/remove-from-wishlist.js"></script>
+</body>
+</html>
