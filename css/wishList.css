@@ -33,7 +33,7 @@
 
 .btn-addToCart{
     margin: 0.625rem;
-    background-color: orange;
+    background-color: #FFA500;
     padding: 0.5rem 1rem;
     font-weight: 800;
     color: white;
@@ -42,5 +42,5 @@
 }
 
 .card-dismiss i{
-    color: red;
+    color: #FF0000;
 }
