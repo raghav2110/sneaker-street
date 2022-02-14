@@ -5,6 +5,10 @@
     margin-top: 4rem;
 }
 
+.pos-relative{
+    position: relative;
+}
+
 .login-wrapper{
     display: flex;
     flex-direction: column;
@@ -34,6 +38,7 @@
 .form-area{
     width: 100%;
     padding: 0 1.5rem;
+    text-align: left;
 }
 
 .email-label{
@@ -70,7 +75,7 @@
 .button-wrapper{
     position: relative;
     height: 3.125rem;
-    margin: 0.75rem 0;
+    margin: 1.5rem 11rem;
 }
 
 .btn-login{
