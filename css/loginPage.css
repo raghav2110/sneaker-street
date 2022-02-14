@@ -50,7 +50,7 @@
 }
 
 .email-input{
-    border: 0.2rem solid #f3f4f6;
+    border: 0.2rem solid var(--borderColor);
     border-radius: 0.3rem;
     font-size: 0.85rem;
     color: var(--headerbg);
